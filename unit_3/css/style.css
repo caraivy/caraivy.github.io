@@ -11,9 +11,9 @@ body {
 	text-transform: capitalize;
 }
 
-ul {list-style-type: none;
-	text-align: center;
+ul {text-align: center;
 }
+
 a {
 	text-decoration: none;
 }
