@@ -1,5 +1,5 @@
 body {
-	background: url(/images/rooftop.jpg);
+	background: url(images/rooftop.jpg);
 	background-size: cover;
 	color: #000;
 	text-align: left;
@@ -9,10 +9,9 @@ body {
 #slogan {
 	text-align: center;
 	font-style: italic
-	text-transform: capitalize;
 }
 
-ul {text-align: center;
+ul {text-align: left;
 }
 
 a {
