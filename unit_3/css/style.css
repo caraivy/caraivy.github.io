@@ -2,11 +2,12 @@ body {
 	background: url(/images/rooftop.jpg);
 	background-size: cover;
 	color: #000;
-	text-align: center;
+	text-align: left;
 	font-family: Helvetica, sans-serif;
 }
 
 #slogan {
+	text-align: center;
 	font-style: italic
 	text-transform: capitalize;
 }
