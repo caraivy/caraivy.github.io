@@ -1,5 +1,5 @@
 body {
-	background-image: url("images/rooftop.jpg");
+	background: url(images/rooftop.jpg);
 	color: #000000;
 	text-align: center;
 	font-family: Helvetica, sans-serif;
