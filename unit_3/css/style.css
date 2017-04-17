@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -29,6 +31,7 @@ footer {
 #slogan {
 	color: #000;
 	text-align: center;
+	font-family: 'Henny Penny', cursive;
 	font-style: italic;
 	font-size: 45px;
 }
