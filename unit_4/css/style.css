@@ -26,6 +26,7 @@ div {
 
 footer {
 	text-align: center;
+	background: yellow;
 }
 
 #slogan {
@@ -58,7 +59,16 @@ footer {
     padding-right: 2em;
     width: 3em;
     margin: 2em auto;
-    float: left;
+    display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 img {
@@ -77,5 +87,14 @@ a {
 nav a {
 	color: #cccccc;
 	margin-right: 10px;
+}
+
+nav {
+	float: right;
+}
+
+#logo {
+	float: left;
+	width: auto;
 }
 
