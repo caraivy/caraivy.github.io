@@ -21,7 +21,7 @@ div {
 	background: url("images/heroimage.jpg");
 	background-size: cover;
 	padding-bottom: 500px;
-	padding-top: 100px;
+	padding-top: 300px;
 }
 
 footer {
@@ -33,14 +33,14 @@ footer {
 	text-align: center;
 	font-family: 'Homemade Apple', cursive;
 	font-style: italic;
-	font-size: 45px;
+	font-size: 4em;
 	word-spacing: .5em;
 }
 
 .summary {
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.3em;
 }
 
 .services {
@@ -48,7 +48,20 @@ footer {
     padding-left: 2em;
     padding-right: 2em;
     width: 15em;
+    margin: 2em auto;
     float: left;
+}
+
+.socialmedia {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    margin: 2em auto;
+    float: left;
+}
+
+img {
+	width: 100%;
 }
 
 ul {
@@ -64,3 +77,4 @@ nav a {
 	color: #cccccc;
 	margin-right: 10px;
 }
+
