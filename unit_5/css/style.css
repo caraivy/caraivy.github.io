@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #222222;
+	line-height: 1.3em;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-family: Times, Georgia, serif;
+	text-align: center;
+}
+
+header {
+	background: url("images/heroimage.jpg");
+	background-size: cover;
+}
+
+#about {
+	background: yellow;
+}
+
+#love {
+	background: orange;
+}
+
+footer {
+	text-align: center;
+	background: #8FBC8F;
+	padding: 1em 0;
+}
+
+#slogan {
+	color: #000;
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-size: 5em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+}
+
+#calltoaction {
+	padding-bottom: 500px;
+}
+
+#servicestitle {
+	padding: 1em;
+}
+
+#about {
+	padding: 1em;
+}
+
+#love {
+	padding: 1em;
+}
+
+div {
+	padding-top: 10px;
+	padding-bottom: 225px;
+}
+
+span {
+	font-style: italic;
+	padding: 0 .1em;
+}
+
+#name {
+	float: left;
+	color: #cccccc;	
+}
+
+.summary {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 1em
+}
+
+.services {
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 15em;
+    margin: 2em auto;
+    float: left;
+}
+
+.socialmedia {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 3em;
+    margin: 2em auto;
+    display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+nav a {
+	color: #cccccc;
+	margin-right: 10px;
+}
+
+nav {
+	float: right;
+}
+
+
+
