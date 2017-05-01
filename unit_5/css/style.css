@@ -13,8 +13,55 @@ body {
 	line-height: 1.3em;
 }
 
+header {
+	/*background: url("images/heroimage.jpg");
+	background-size: cover;*/
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+nav a {
+	color: #cccccc;
+	margin-right: 10px;
+}
+
+nav {
+	float: right;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div {
+	padding-top: 10px;
+	padding-bottom: 225px;
+}
+
+span {
+	font-style: italic;
+	padding: 0 .1em;
+}
+
 h2 {
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 p {
@@ -22,23 +69,16 @@ p {
 	text-align: center;
 }
 
-header {
-	background: url("images/heroimage.jpg");
-	background-size: cover;
-}
-
-#about {
-	background: yellow;
-}
-
-#love {
-	background: orange;
-}
-
 footer {
 	text-align: center;
-	background: #8FBC8F;
-	padding: 1em 0;
+	background: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#name {
+	float: left;
+	color: #cccccc;	
 }
 
 #slogan {
@@ -60,26 +100,23 @@ footer {
 }
 
 #about {
-	padding: 1em;
+	background: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
 }
 
 #love {
-	padding: 1em;
+	background: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
 }
 
-div {
-	padding-top: 10px;
-	padding-bottom: 225px;
-}
-
-span {
-	font-style: italic;
-	padding: 0 .1em;
-}
-
-#name {
-	float: left;
-	color: #cccccc;	
+.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 .summary {
@@ -95,6 +132,10 @@ span {
     width: 15em;
     margin: 2em auto;
     float: left;
+}
+
+.testimonial {
+	padding: 1em;
 }
 
 .socialmedia {
@@ -114,27 +155,7 @@ span {
   height: 0;
 }
 
-img {
-	width: 100%;
-}
 
-ul {
-	list-style: none;
-}
-
-a {
-	color: #cccccc;
-	text-decoration: none;
-}
-
-nav a {
-	color: #cccccc;
-	margin-right: 10px;
-}
-
-nav {
-	float: right;
-}
 
 
 
