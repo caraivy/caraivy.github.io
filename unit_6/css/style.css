@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #222222;
+	line-height: 1.3em;
+}
+
+header {
+	background: url("images/heroimage.jpg");
+	background-size: cover;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	background-color: #e6ffe6;
+	padding: 20px;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+nav a {
+	color: green;
+	padding: 1em;
+}
+
+nav a:hover {
+	color: orange;
+}
+
+nav {
+	float: right;
+}
+
+div {
+	padding-top: 10px;
+	padding-bottom: 225px;
+}
+
+span {
+	font-style: italic;
+	padding: 0 .1em;
+}
+
+h2 {
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+p {
+	font-family: Times, Georgia, serif;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background: #99ff99;
+	padding: 20px;
+}
+
+#name {
+	float: left;
+	color: green;	
+	padding-left: 1em;
+	word-spacing: .1em;
+}
+
+#slogan {
+	color: #000;
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-size: 5em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+}
+
+#calltoaction {
+	padding-bottom: 500px;
+}
+
+#servicestitle {
+	padding: 1em;
+	background: #e6ffe6;
+}
+
+#about {
+	background: #ccffcc;
+	padding: 20px;
+	text-align: center;
+}
+
+#love {
+	background: #b3ffb3;
+	padding: 20px;
+	text-align: center;
+}
+
+.summary {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 1em
+}
+
+.services {
+   /* background-color: #E582A2;*/
+    /*border: 1px black solid;*/
+    text-align: center;
+    padding: 15px;
+   /* padding-left: 1.2em;
+    padding-right: 1.2em;*/
+    width: 30%;
+   /* margin: 1em auto;*/
+    float: left;
+}
+
+.testimonial {
+	padding: 1em;
+}
+
+.socialmedia {
+    padding-right: 1em;
+    width: 3em;
+    margin: 1em auto;
+    display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+
+
+
