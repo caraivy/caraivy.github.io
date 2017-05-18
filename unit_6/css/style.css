@@ -8,7 +8,7 @@
 body {
 
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: #222222;
 	line-height: 1.3em;
 }
@@ -25,7 +25,7 @@ img {
 ul {
 	list-style: none;
 	background-color: #e6ffe6;
-	padding: 20px;
+	padding: 0 1em;
 }
 
 a {
@@ -38,6 +38,7 @@ a:hover {
 }
 
 nav a {
+	font-size: .8em;
 	color: green;
 	padding: 1em;
 }
@@ -51,8 +52,8 @@ nav {
 }
 
 div {
-	padding-top: 10px;
-	padding-bottom: 225px;
+	padding-top: .5em;
+	padding-bottom: 11.25em;
 }
 
 span {
@@ -62,12 +63,21 @@ span {
 
 h2 {
 	text-align: center;
-	padding-bottom: 1em;
 }
 
 p {
 	font-family: Times, Georgia, serif;
 	text-align: center;
+}
+
+figure {
+  	display: table;
+}
+
+figcaption {
+	padding: .5em;
+  	display: table-caption;
+  	caption-side: top;
 }
 
 footer {
@@ -98,19 +108,27 @@ footer {
 }
 
 #servicestitle {
-	padding: 1em;
+	padding-top: 1em;
 	background: #e6ffe6;
 }
 
 #about {
-	background: #ccffcc;
-	padding: 20px;
+	background: #b3ffb3; 
+	padding: 1em 6em;
 	text-align: center;
 }
 
+#info {
+	padding: 1em;
+}
+
+#contacttitle {
+	padding-bottom: 1em;
+}
+
 #love {
-	background: #b3ffb3;
-	padding: 20px;
+	background: #ccffcc;
+	padding: 1em;
 	text-align: center;
 }
 
@@ -121,19 +139,17 @@ footer {
 }
 
 .services {
-   /* background-color: #E582A2;*/
     /*border: 1px black solid;*/
     text-align: center;
-    padding: 15px;
-   /* padding-left: 1.2em;
-    padding-right: 1.2em;*/
-    width: 30%;
+    padding: 1em 2em;
+    width: 43%;
    /* margin: 1em auto;*/
     float: left;
 }
 
 .testimonial {
-	padding: 1em;
+	padding: 1em 6em;
+	text-align: center;
 }
 
 .socialmedia {
