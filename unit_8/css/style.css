@@ -234,6 +234,16 @@ footer {
 	#wrapper {
 		width: auto;
 	}
+
+	.services {
+		width: 78%;
+	}
+	.testimonial {
+		padding: 1em 1em;
+	}
+	#about {
+		padding: 1em 1em;
+	}
 }	
 
 
