@@ -95,6 +95,8 @@ footer {
 	color: green;	
 	padding-left: 1em;
 	word-spacing: .1em;
+	text-transform: uppercase;
+	font-size: .9em;
 }
 
 #slogan {
@@ -197,7 +199,7 @@ footer {
 
 @media only screen and (max-width: 710px) {
 	.services {
-		width: 90%;
+		width: auto;
 	}
 	.testimonial {
 		padding: 1em 3em;
@@ -207,7 +209,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 690px) {
 	#mobile {
 		display: block;
 	}
@@ -223,12 +225,12 @@ footer {
 	}
 
 	#slogan {
-		font-size: 2.5em;
+		font-size: 3.4em;
 	}
 
 	div {
 	padding-top: .5em;
-	padding-bottom: 5em;
+	padding-bottom: 8em;
 	}
 
 	#wrapper {
@@ -236,13 +238,16 @@ footer {
 	}
 
 	.services {
-		width: 75%;
+		width: auto;
+		padding: 1em;
 	}
+
 	.testimonial {
-		padding: 1em 1em;
+		padding: 1em;
 	}
+
 	#about {
-		padding: 1em 1em;
+		padding: 1em;
 	}
 }	
 
