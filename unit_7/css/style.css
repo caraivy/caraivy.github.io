@@ -168,6 +168,40 @@ footer {
   height: 0;
 }
 
+}
+
+@media only screen and (min-width: 1800px) {
+	#wrapper {
+		width: 1280px;
+	}
+}
+
+@media only screen and (max-width: 1185px) {
+	.services {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.services {
+		width: 38%;
+	}
+	#slogan {
+		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	.services {
+		width: 90%;
+	}
+	.testimonial {
+		padding: 1em 3em;
+	}
+	#about {
+		padding: 1em 3em;
+	}
+}
 
 
 
