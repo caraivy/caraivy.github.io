@@ -188,12 +188,21 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 1000px) {
+	.services {
+		width: 40%;
+	}
+	#slogan {
+		font-size: 4.3em;
+	}
+}
+
 @media only screen and (max-width: 840px) {
 	.services {
 		width: 38%;
 	}
 	#slogan {
-		font-size: 4em;
+		font-size: 3.5em;
 	}
 }
 
@@ -206,6 +215,9 @@ footer {
 	}
 	#about {
 		padding: 1em 3em;
+	}
+	#slogan {
+		font-size: 3em;
 	}
 }
 
@@ -225,7 +237,7 @@ footer {
 	}
 
 	#slogan {
-		font-size: 3.4em;
+		font-size: 3em;
 	}
 
 	div {
