@@ -38,7 +38,7 @@ a:hover {
 	-webkit-transition: color ease-in-out .5s;
 	-moz-transition: color ease-in-out .5s;
 	-o-transition: color ease-in-out .5s;
-	transition: color ease-in-out .5s;
+	transition: color ease-in-out .3s;
 }
 
 nav a {
@@ -47,9 +47,9 @@ nav a {
 	padding: 1em;
 }
 
-nav a:hover {
+/*nav a:hover {
 	color: orange;
-}
+}*/
 
 nav {
 	float: right;
