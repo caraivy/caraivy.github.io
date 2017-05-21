@@ -78,6 +78,7 @@ figcaption {
 	padding: .5em;
   	display: table-caption;
   	caption-side: top;
+  	color: green;
 }
 
 footer {
