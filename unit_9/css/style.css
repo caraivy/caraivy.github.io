@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #222222;
+	line-height: 1.3em;
+}
+
+header {
+	background: url("images/heroimage.jpg");
+	background-size: cover;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	background-color: #e6ffe6;
+	padding: 0 1em;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	-webkit-transition: color ease-in-out .5s;
+	-moz-transition: color ease-in-out .5s;
+	-o-transition: color ease-in-out .5s;
+	transition: color ease-in-out .3s;
+}
+
+nav a {
+	font-size: .8em;
+	color: green;
+	padding: 1em;
+}
+
+/*nav a:hover {
+	color: orange;
+}*/
+
+nav {
+	float: right;
+}
+
+div {
+	padding-top: .5em;
+	padding-bottom: 11.25em;
+}
+
+span {
+	font-style: italic;
+	padding: 0 .1em;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-family: Times, Georgia, serif;
+	text-align: center;
+}
+
+figure {
+  	display: table;
+}
+
+figcaption {
+	padding: .5em;
+  	display: table-caption;
+  	caption-side: top;
+}
+
+footer {
+	text-align: center;
+	background: #99ff99;
+	padding: 20px;
+}
+
+#mobile {
+	display: none;
+}
+
+#name {
+	float: left;
+	color: green;	
+	padding-left: 1em;
+	word-spacing: .1em;
+	text-transform: uppercase;
+	font-size: .9em;
+}
+
+#slogan {
+	color: #000;
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-size: 5em;
+	word-spacing: .3em;
+	line-height: 1.5em;
+}
+
+#calltoaction {
+	padding-bottom: 500px;
+}
+
+#servicestitle {
+	padding-top: 1em;
+	background: #e6ffe6;
+}
+
+#about {
+	background: #b3ffb3; 
+	padding: 1em 6em;
+	text-align: center;
+}
+
+#info {
+	padding: 1em;
+}
+
+#contacttitle {
+	padding-bottom: 1em;
+}
+
+#love {
+	background: #ccffcc;
+	padding: 1em;
+	text-align: center;
+}
+
+.summary {
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 1em
+}
+
+.services {
+    /*border: 1px black solid;*/
+    text-align: center;
+    padding: 1em 2em;
+    width: 43%;
+   /* margin: 1em auto;*/
+    float: left;
+}
+
+.testimonial {
+	padding: 1em 6em;
+	text-align: center;
+}
+
+.socialmedia {
+    padding-right: 1em;
+    width: 3em;
+    margin: 1em auto;
+    display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+}
+
+@media only screen and (min-width: 1600px) {
+	#wrapper {
+		width: 1280px;
+	}
+}
+
+@media only screen and (max-width: 1185px) {
+	.services {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.services {
+		width: 40%;
+	}
+	#slogan {
+		font-size: 4.3em;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.services {
+		width: 38%;
+	}
+	#slogan {
+		font-size: 3.5em;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	.services {
+		width: auto;
+	}
+	.testimonial {
+		padding: 1em 3em;
+	}
+	#about {
+		padding: 1em 3em;
+	}
+	#slogan {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 690px) {
+	#mobile {
+		display: block;
+	}
+	
+	nav a {
+		width: auto;
+		padding: .3em;
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	#slogan {
+		font-size: 2.5em;
+		word-spacing: none;
+	}
+
+	div {
+	padding-top: .5em;
+	padding-bottom: 8em;
+	}
+
+	#wrapper {
+		width: auto;
+	}
+
+	.services {
+		width: auto;
+		padding: 1em;
+	}
+
+	.testimonial {
+		padding: 1em;
+	}
+
+	#about {
+		padding: 1em;
+	}
+}	
+
+
