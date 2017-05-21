@@ -35,6 +35,10 @@ a {
 
 a:hover {
 	color: orange;
+	-webkit-transition: color ease-in-out .5s;
+	-moz-transition: color ease-in-out .5s;
+	-o-transition: color ease-in-out .5s;
+	transition: color ease-in-out .5s;
 }
 
 nav a {
@@ -176,7 +180,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 1800px) {
+@media only screen and (min-width: 1600px) {
 	#wrapper {
 		width: 1280px;
 	}
