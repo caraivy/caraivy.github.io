@@ -146,11 +146,9 @@ footer {
 }
 
 .services {
-    /*border: 1px black solid;*/
     text-align: center;
     padding: 1em 2em;
     width: 43%;
-   /* margin: 1em auto;*/
     float: left;
 }
 
@@ -173,8 +171,6 @@ footer {
   content: " ";
   clear: both;
   height: 0;
-}
-
 }
 
 @media only screen and (min-width: 1600px) {
