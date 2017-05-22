@@ -3,6 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -13,9 +14,12 @@ body {
 	line-height: 1.3em;
 }
 
-header {
+#intro {
 	background: url("images/heroimage.jpg");
 	background-size: cover;
+	padding: 15em 0;
+	height: 100vh;
+	background-position: bottom;
 }
 
 img {
@@ -26,6 +30,8 @@ ul {
 	list-style: none;
 	background-color: #e6ffe6;
 	padding: 0 1em;
+	max-width: 1200px;
+	margin: auto;
 }
 
 a {
@@ -50,10 +56,10 @@ nav a {
 	color: green;
 	padding: 1em;
 }
-
+section {
+	padding: 10em 0;
+}
 div {
-	padding-top: .5em;
-	padding-bottom: 11.25em;
 }
 
 span {
@@ -111,11 +117,9 @@ footer {
 }
 
 #calltoaction {
-	padding-bottom: 500px;
 }
 
-#servicestitle {
-	padding-top: 1em;
+#services {
 	background: #e6ffe6;
 }
 
@@ -135,7 +139,6 @@ footer {
 
 #love {
 	background: #ccffcc;
-	padding: 1em;
 	text-align: center;
 }
 
@@ -148,7 +151,7 @@ footer {
 .services {
     text-align: center;
     padding: 1em 2em;
-    width: 43%;
+    width: 50%;
     float: left;
 }
 
@@ -173,31 +176,13 @@ footer {
   height: 0;
 }
 
-@media only screen and (min-width: 1600px) {
-	#wrapper {
-		width: 1300px;
-	}
-}
-
-@media only screen and (max-width: 1185px) {
-	.services {
-		width: 40%;
-	}
-}
-
 @media only screen and (max-width: 1000px) {
-	.services {
-		width: 40%;
-	}
 	#slogan {
 		font-size: 4.3em;
 	}
 }
 
 @media only screen and (max-width: 840px) {
-	.services {
-		width: 38%;
-	}
 	#slogan {
 		font-size: 3.5em;
 	}
@@ -205,7 +190,7 @@ footer {
 
 @media only screen and (max-width: 710px) {
 	.services {
-		width: auto;
+		width: 100%;
 	}
 	.testimonial {
 		padding: 1em 3em;
@@ -237,18 +222,7 @@ footer {
 		font-size: 2.5em;
 		word-spacing: none;
 	}
-
-	div {
-	padding-top: .5em;
-	padding-bottom: 8em;
-	}
-
-	#wrapper {
-		width: auto;
-	}
-
 	.services {
-		width: auto;
 		padding: 1em;
 	}
 
