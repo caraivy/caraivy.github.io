@@ -9,29 +9,13 @@
 body {
 
 	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 24px;
 	color: #222222;
 	line-height: 1.3em;
 }
 
-#intro {
-	background: url("images/heroimage.jpg");
-	background-size: cover;
-	padding: 15em 0;
-	height: 100vh;
-	background-position: bottom;
-}
-
 img {
 	width: 100%;
-}
-
-ul {
-	list-style: none;
-	background-color: #e6ffe6;
-	padding: 0 1em;
-	max-width: 1200px;
-	margin: auto;
 }
 
 a {
@@ -52,14 +36,13 @@ nav {
 }
 
 nav a {
-	font-size: .8em;
+	font-size: .7em;
 	color: green;
 	padding: 1em;
 }
+
 section {
-	padding: 10em 0;
-}
-div {
+	padding: 5em 0;
 }
 
 span {
@@ -69,41 +52,48 @@ span {
 
 h2 {
 	text-align: center;
+	padding-bottom: 2em;
+	color: #006400;
+}
+
+h3 {
+	color: green;
+	padding-bottom: 1em;
 }
 
 p {
 	font-family: Times, Georgia, serif;
 	text-align: center;
-}
-
-figure {
-  	display: table;
-}
-
-figcaption {
-	padding: .5em;
-  	display: table-caption;
-  	caption-side: top;
-  	color: green;
+	color: #474242;
 }
 
 footer {
 	text-align: center;
 	background: #99ff99;
-	padding: 20px;
+	padding: 5em 0 1em 0;
 }
 
 #mobile {
 	display: none;
 }
 
+#intro {
+	background: url("images/heroimage.jpg");
+	background-size: cover;
+	padding: 7em 0;
+	height: 120vh;
+	background-position: bottom;
+}
+
 #name {
 	float: left;
 	color: green;	
-	padding-left: 1em;
+	padding-left: .1em;
 	word-spacing: .1em;
 	text-transform: uppercase;
 	font-size: .9em;
+	font-weight: 500;
+	color: #006400;
 }
 
 #slogan {
@@ -111,12 +101,10 @@ footer {
 	text-align: center;
 	font-family: 'Homemade Apple', cursive;
 	font-style: italic;
-	font-size: 5em;
+	font-size: 4.5em;
 	word-spacing: .3em;
 	line-height: 1.5em;
-}
-
-#calltoaction {
+	color: #006400;
 }
 
 #services {
@@ -125,16 +113,7 @@ footer {
 
 #about {
 	background: #b3ffb3; 
-	padding: 1em 6em;
 	text-align: center;
-}
-
-#info {
-	padding: 1em;
-}
-
-#contacttitle {
-	padding-bottom: 1em;
 }
 
 #love {
@@ -142,10 +121,13 @@ footer {
 	text-align: center;
 }
 
+#info {
+	padding-right: 10em;
+	padding-left: 10em;
+}
+
 .summary {
 	font-family: Helvetica, Arial, sans-serif;
-	text-align: center;
-	font-size: 1em
 }
 
 .services {
@@ -156,12 +138,12 @@ footer {
 }
 
 .testimonial {
-	padding: 1em 6em;
+	padding: 1em 10em;
 	text-align: center;
 }
 
 .socialmedia {
-    padding-right: 1em;
+    padding-right: .5em;
     width: 3em;
     margin: 1em auto;
     display: inline-block;
@@ -176,34 +158,39 @@ footer {
   height: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 	#slogan {
-		font-size: 4.3em;
+		font-size: 4.1em;
 	}
-}
 
-@media only screen and (max-width: 840px) {
-	#slogan {
-		font-size: 3.5em;
+	#info {
+	padding-right: 5em;
+	padding-left: 5em;
 	}
-}
 
-@media only screen and (max-width: 710px) {
-	.services {
-		width: 100%;
-	}
 	.testimonial {
-		padding: 1em 3em;
-	}
-	#about {
-		padding: 1em 3em;
-	}
-	#slogan {
-		font-size: 3em;
+	padding: 1em 5em;
+	text-align: center;
 	}
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 940px) {
+	#slogan {
+		font-size: 3.7em;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	#slogan {
+		font-size: 3.2em;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	body {
+		font-size: 20px;
+	}
+
 	#mobile {
 		display: block;
 	}
@@ -218,21 +205,58 @@ footer {
 		display: block;
 	}
 
+	#intro {	
+	padding: 9em 0;
+	}
+
+	#slogan {
+		font-size: 3.5em;
+		word-spacing: none;
+	}
+	.services {
+		float: none;
+		width: auto;
+	}
+
+}
+
+@media only screen and (max-width: 650px) {	
+	#slogan {
+		font-size: 3em;
+	}
+}
+
+@media only screen and (max-width: 600px) {	
+	#slogan {
+		font-size: 2.6em;
+	}
+}
+
+@media only screen and (max-width: 490px) {	
 	#slogan {
 		font-size: 2.5em;
 		word-spacing: none;
 	}
-	.services {
-		padding: 1em;
+
+	#info {
+	padding-right: 2em;
+	padding-left: 2em;
 	}
 
 	.testimonial {
-		padding: 1em;
-	}
-
-	#about {
-		padding: 1em;
+	padding: 1em 2em;
+	text-align: center;
 	}
 }	
+
+
+
+
+
+
+
+
+
+
 
 
