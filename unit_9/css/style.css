@@ -246,11 +246,17 @@ footer {
 	padding: 1em 2em;
 	text-align: center;
 	}
-}	
+}
 
 @media only screen and (max-width: 465px) {	
 	#slogan {
 		font-size: 2.1em;
+	}
+}
+
+@media only screen and (max-width: 435px) {	
+	#slogan {
+		font-size: 2em;
 	}
 }
 
