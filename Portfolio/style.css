@@ -1,0 +1,42 @@
+section {
+  background: radial-gradient(circle, yellow, #ec38bc);
+  color: white;
+  font-family: Georgia, Times, serif;
+  font-size: 60px;
+  padding: 4em
+}
+
+h1 {
+  padding: 1em;
+}
+
+h4 {
+  padding-bottom: 4em;
+  padding-top: 1em;
+}
+
+p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 8em;
+  padding-right: 8em;
+  font-size: 16px;
+}
+
+.col-md-6 {
+  padding: 1em 4em;
+}
+
+footer {
+  padding-top: 2em;
+  background: radial-gradient(circle, yellow, #ec38bc); 
+}
+
+#SocialMedia {
+  padding-top: 6em;
+  padding-bottom: 4em;
+}
+
+#copy {
+  font-size: 12px;
+}
